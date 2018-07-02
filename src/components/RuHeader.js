@@ -18,8 +18,9 @@ const pStyle2 = {
 const Header = () =>
 <div>
     <NavLink to="/" style={pStyle1}>in English</NavLink>
-    <NavLink to="/" id="name">Face and Body treatments</NavLink>
-    <div class="attn1">call for an appointment: 647-988-8989</div>
+    <div className="clear"></div>
+    <NavLink to="/" id="name">Уход за кожей лица и тела</NavLink>
+    <div class="attn1">запись на процедуры: 647-988-8989</div>
     <div className="clear"></div>
 </div>
 

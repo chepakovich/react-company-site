@@ -23,7 +23,7 @@ a:focus { outline: thin dotted; } */
 input, textarea, select {margin:4px 0;}
 select {background-color:#e5f2e5;}
 input[type="text"], textarea {background-color:#ffffe0;}
-
+.btnred {margin-top:10px;}
 .btn1 {padding:4px 20px; min-width:150px; color:#fff; background-color:#008000; border-radius:6px;}
   .btn1:hover {background-color:#32B232;}
 .btn2 {padding:6px 22px; min-width:336px; color:#fff; background-color:#F70D1A; border-radius:6px; font-size:18px; font-weight:bold; margin-bottom:10px;}
@@ -50,10 +50,8 @@ ul {padding-left:20px;}
 }
 
 @media only screen and (min-width: 769px) {
-.gridContainer {max-width: 970px; /*1232px;*/}
-/*body {background-image: url("microdermabrasion.jpg"); background-size:100%; background-repeat: no-repeat;}
-*/
-.area1 {background-color:rgba(255,255,255,0.9);}
-#name {font-size:70px; background-color:rgba(251,219,244,0.5);}
-}
-.btnred {margin-top:10px;}
+  body {background-image: url("microdermabrasion.jpg"); background-size:100%; background-repeat: no-repeat;}
+  .area1 {background-color:rgba(255,255,255,0.9);}
+  #name {font-size:70px; background-color:rgba(251,219,244,0.5);}
+  }
+    

@@ -44,6 +44,10 @@ module.exports = {
                     options: {
                       plugins: () => [require('autoprefixer')]
                     }}, 'sass-loader']
+            },
+            {
+                test: /\.(png|jpg)$/,
+                loader: 'url-loader'
             }
         ]
     },
