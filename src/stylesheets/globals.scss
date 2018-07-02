@@ -1,0 +1,59 @@
+body,div,ul,li,p,h1,h2,h3,h4,h5,h6 {padding:0;margin:0;}
+.wrapper {max-width:960px; margin:auto;}
+.clear {clear:both;}
+body {background-color:#FFD8FF; font-size:15px;} /*#fdcff3*/
+.area1 {margin-bottom:15px; padding:10px 20px; background-color:#FFF; border:1px solid #FFB0FF; border-radius:15px;}
+#name {display:block; font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif; color:#F0C; font-size:50px; line-height:50px; padding:16px 5px 5px; font-style:italic; text-align:center; 
+border:1px solid #FFF; border-radius:15px; margin:10px 0 8px;} /*FBDBF4 */
+a #name {color:#F0C; text-decoration:none;}
+a:hover #name {background-color:#FFF; text-decoration:none;}
+.attn1 {display:block; float:right; margin:0 4px 7px 4px; padding:5px 15px; background-color:#FFF; font-size:22px; line-height:22px; background-color:#F70D1A; color:#FFF; transform: skewX(-10deg);}
+.sp1 {font-size:20px; line-height:25px; color:#F0C;}
+.sp2 {border:1px solid #F0C; text-align:center; max-width:700px; margin:15px auto; border-radius:15px; padding:5px;}
+
+body, button, input, select, textarea {font-family:Arial,Helvetica,"Arial Unicode MS",sans-serif; color: #222; }
+a {color:#00e; text-decoration:none;} /*color: #00e;*/ /*color: #cc0548;*/
+/*a:hover {text-decoration:underline;}*/
+/* a:visited { color: #551a8b; }
+a:hover { color: #06e; }
+a:hover, a:active { outline: 0; }
+a:focus { outline: thin dotted; } */
+
+/*NEW*/
+input, textarea, select {margin:4px 0;}
+select {background-color:#e5f2e5;}
+input[type="text"], textarea {background-color:#ffffe0;}
+
+.btn1 {padding:4px 20px; min-width:150px; color:#fff; background-color:#008000; border-radius:6px;}
+  .btn1:hover {background-color:#32B232;}
+.btn2 {padding:6px 22px; min-width:336px; color:#fff; background-color:#F70D1A; border-radius:6px; font-size:18px; font-weight:bold; margin-bottom:10px;}
+  .btn2:hover {background-color:#f9555e;}
+.btn3 {width:145px; padding:5px 0 5px 5px; text-align:center; color:#fff; background-color:#149414; border-radius:6px; font-size:32px; margin:4px 15px 15px; text-decoration:none;}
+  .btn3:hover {background-color:#3CBC3C; text-decoration:underline;}
+
+h1 {font-size:38px; line-height:40px; font-family:Georgia, "Times New Roman", Times, serif; font-weight:normal; padding-bottom:7px;}
+p {margin-bottom:0.7%;}
+ins {background-color:#FFFFFF !important;}
+
+hr {padding:0; margin:3px 0;}
+#ft1 hr {padding:0; margin:0.8% 0 0.4%;}
+
+
+h2 {font-size:18px; line-height:19px; padding:6px 0 4px;}
+h3 {font-size:15px; line-height:16px; padding:4px 0 2px;}
+ul {padding-left:20px;}
+.tbl1 {margin:15px 0 5px;}
+  .tbl1 td {vertical-align:middle;}
+
+
+@media only screen and (min-width: 481px) {
+}
+
+@media only screen and (min-width: 769px) {
+.gridContainer {max-width: 970px; /*1232px;*/}
+/*body {background-image: url("microdermabrasion.jpg"); background-size:100%; background-repeat: no-repeat;}
+*/
+.area1 {background-color:rgba(255,255,255,0.9);}
+#name {font-size:70px; background-color:rgba(251,219,244,0.5);}
+}
+.btnred {margin-top:10px;}
